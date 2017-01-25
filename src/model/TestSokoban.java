@@ -6,5 +6,6 @@ package model;
 public class TestSokoban {
     public static void main(String[] args) {
         System.out.println("test");
+        System.out.println("Deze klasse test de Sokoban app.");
     }
 }
