@@ -5,6 +5,7 @@ package model;
  */
 public class Sokoban {
     public Sokoban(){
+
         System.out.println("Sokoban Constructor");
     }
 }
