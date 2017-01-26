@@ -7,5 +7,7 @@ public class TestSokoban {
     public static void main(String[] args) {
         System.out.println("Deze klasse test de Sokoban app.");
         Sokoban sokoban = new Sokoban();
+
+        System.out.println("Fran wijzigt iets in Johnny zijn klasse! ");
     }
 }
