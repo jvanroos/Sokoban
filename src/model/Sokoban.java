@@ -4,11 +4,21 @@ package model;
  * Created by jvanroos on 25/01/2017.
  */
 public class Sokoban {
+    private Levels levels;
+    private int numLevels;
+    private int level;
 
-      public Sokoban(){
+    public Sokoban(String fileName){
 
-            System.out.println("Sokoban Constructor");
-        }
+        level = 0;
+        levels = new Levels();
+        numLevels = levels.setLevels(fileName);
 
+        int w;
+        int h;
+
+
+
+    }
 
 }
